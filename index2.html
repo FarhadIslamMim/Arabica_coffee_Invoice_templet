@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Book</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- FONT-AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .style-icon {
+            transform: rotate(-30deg);
+            font-size: 3rem;
+        }
+
+        .image_style {
+            height: 120px;
+            width: 210px;
+            padding: 0;
+            margin: 0;
+        }
+
+        .table_header {
+            font-size: 0.8em;
+        }
+
+        .table_body {
+            font-size: 0.7em;
+        }
+
+        .dotted-line {
+            border-bottom: 2px dotted rgb(3, 3, 3);
+        }
+
+        .signature_over_line {
+            text-decoration: overline;
+        }
+
+        .address-text {
+            font-size: 0.8em;
+        }
+
+        .name-hadeing {
+            font-size: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col col-4">
+                <img class=" image_style " src="./Image/ac.png" alt="Arabica Coffee">
+            </div>
+            <div class=" col col-4 text-center mt-3">
+                <h3 class="text-center">BILL</h3>
+            </div>
+            <div class="col col-4  ">
+                <div class="row  text-start address-text ">
+                    <p class="p-0 m-0"> House # 18, Road # 9, Block # B,</p>
+                    <p class=" p-0 m-0 ">Bosila City Developers Housing,</p>
+                    <p class=" p-0 m-0 ">Bosila, Mohammadpur, Dhaka-1207.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class=" address-text col col-8">
+                <p class="name-hadeing p-0 m-0">Dealer Name: <span >Arabica Coffee</span></p>
+                <p class="name-hadeing p-0 m-0">Address: <span >Arabica Coffee House, Mohammadpur,
+                        Dhaka-1207</span></p>
+                <p class="name-hadeing p-0 m-0">Mobile Number: <span >Arabica Coffee</span></p>
+                <p class="name-hadeing p-0 m-0">Delivary Address: <span >Arabica Coffee</span></p>
+                <p class="name-hadeing p-0 m-0">Note: <span >Note ..................</span></p>
+            </div>
+
+            <div class=" address-text col col-4 text-start">
+                <div class="row  text-start ">
+                    <p class="p-0 m-0">No: <samp >123456</samp></p>
+                    <p class=" p-0 m-0 ">Date: <samp >12/12/2022</samp></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="class mt-4">
+            <h4>Name: <span>Arabica Coffee</span></h4>
+            <h4>Address: <span>Arabica Coffee House, Mohammadpur, Dhaka-1207</span></h4>
+
+
+            <table class="table table-bordered ">
+                <thead class="text-center table_header">
+                    <tr>
+                        <th scope="col">SL No.</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Qty/kg/Pcs</th>
+                        <th scope="col">Rate</th>
+                        <th scope="col">Amount</th>
+                    </tr>
+                </thead>
+                <tbody class="text-center table_body">
+                    <tr>
+
+                        <td>1</td>
+                        <td>Malai Cha (Mini)</td>
+                        <td>15 gm</td>
+                        <td>1200</td>
+                        <td>48+1</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>MAlai Cha KG</td>
+                        <td>1 KG</td>
+                        <td>16</td>
+                        <td>15+1</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Milk Tea (Mini)</td>
+                        <td>14gm</td>
+                        <td>1200</td>
+                        <td>48+1</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Special Dud Cha (Mini)</td>
+                        <td>10gm</td>
+                        <td>1200</td>
+                        <td>24+1</td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div> -->
+
+        <!-- <div class="row">
+            <div class="col col-8 text-start pt-3">
+
+                <h6 class="">In Word:</h6>
+
+            </div>
+            <div class="col col-4 text-center">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col table_header">Total</th>
+                            <th scope="col " class="table_body">40,000</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table_header">Advance</td>
+                            <td class="table_body">10000</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td class=" table_header">Balance</td>
+                            <td class="table_body">300000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div> -->
+
+        <!-- Signature -->
+        <!-- <div class="d-flex justify-content-between">
+            <div class="p-5 my-2">
+                <div class="signature_over_line">
+                    <h6>Customer's Signature</h6>
+                </div>
+            </div>
+            <div class="p-5 my-2">
+                <div class="signature_over_line">
+                    <h6>Authorised Signature</h6>
+                </div>
+            </div>
+            <div class="p-5 my-2">
+                <div class="signature_over_line">
+                </div>
+            </div>
+        </div> -->
+
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
